@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ocollins.me</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://unpkg.com/98.css" />
+</head>
+<style>
+    hr {
+        margin: 0;
+        border: none;
+        width: 400px;
+        height: 1px;
+        opacity: 0.5;
+        background: linear-gradient( to right, red 20%, yellow 20%, yellow 36%, green 36%, green 60%, blue 60%, blue 100% );
+    }
+    aside {
+        width: auto;
+        height: auto;
+        position: fixed;
+        padding: 8px;
+        display: flex;
+    }
+    main {
+        margin-left: 200px;
+        margin-bottom: 60px;
+        padding: 8px;
+    }
+    body {
+      margin: 7%;
+      background: silver;
+    }
+    .window {
+      width: auto;
+      height: auto;
+    }
+    .tree-view {
+      height: 100%;
+    }
+</style>
+<body>
+            <h2>ocollins.me</h1>
+            <hr>
+            <br>
+              <div class="window">
+                  
+                <div class="title-bar">
+                  <div class="title-bar-text">Welcome to my site!</div>
+                  <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                  </div>
+                </div>
+                <div class="window-body">
+                    <aside>
+                        <ul class="tree-view">
+                            <li>Table of Contents</li>
+                            <li>What is web development?</li>
+                            <li>
+                              CSS
+                              <ul>
+                                <li>Selectors</li>
+                                <li>Specificity</li>
+                                <li>Properties</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <details open>
+                                <summary>JavaScript</summary>
+                                <ul>
+                                  <li>Avoid at all costs</li>
+                                  <li>
+                                    <details>
+                                      <summary>Unless</summary>
+                                      <ul>
+                                        <li>Avoid</li>
+                                        <li>
+                                          <details>
+                                            <summary>At</summary>
+                                            <ul>
+                                              <li>Avoid</li>
+                                              <li>At</li>
+                                              <li>All</li>
+                                              <li>Cost</li>
+                                            </ul>
+                                          </details>
+                                        </li>
+                                        <li>All</li>
+                                        <li>Cost</li>
+                                      </ul>
+                                    </details>
+                                  </li>
+                                </ul>
+                              </details>
+                            </li>
+                            <li>HTML</li>
+                            <li>Special Thanks</li>
+                          </ul>
+                    </aside>
+                    <main>
+                        <img src="headshot.png" >
+                        <h4>Oliver Collins</h4>
+                        <p>
+                            Hi there friend, welcome to my site!<br>
+                            Connect with me on my social media using the buttons below.
+                        </p>
+                        <a href="https://twitter.com/0xollie" target="_blank">
+                            <button>Follow me on Twitter</button>
+                        </a>
+                        <a href="http://linkedin.com/in/oliver-collins/" target="_blank">
+                            <button>Connect with me on LinkedIn</button>
+                        </a>
+                        <p></p>
+                    </main>
+                    
+                </div>
+              </div>
+</body>
+</html>
